@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<main class="container py-5">
+    <section class="card card-body">
+        <h1 class="display-1 text-center">Django App</h1>
+        <p> Proyecto de CRUD y autenticación en Django y Phyton tomado de Fazt tomado de 
+            <a href="https://www.youtube.com/watch?v=e6PkGDH4wWA">Video en el canal de Fazt en YouTube</a> 
+        </p>
+        <div class="text-center">
+            <a href="/login" class="btn btn-secondary">
+                Iniciar sesión
+            </a>
+            <a href="/signup" class="btn btn-dark">
+                Registrarse
+            </a>
+        </div>
+    </section>
+</main>
+
+
+{% endblock %}
